@@ -1,0 +1,5 @@
+<serializable name="SetBoolRequest" namespace="ROS::std_srvs">
+  <members>
+    <member name="data" type="U8"/>
+  </members>
+</serializable>

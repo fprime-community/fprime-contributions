@@ -1,0 +1,8 @@
+<serializable name="ColorRGBA" namespace="ROS::std_msgs">
+  <members>
+    <member name="r" type="F32"/>
+    <member name="g" type="F32"/>
+    <member name="b" type="F32"/>
+    <member name="a" type="F32"/>
+  </members>
+</serializable>

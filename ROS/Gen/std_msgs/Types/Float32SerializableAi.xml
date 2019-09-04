@@ -1,0 +1,5 @@
+<serializable name="Float32" namespace="ROS::std_msgs">
+  <members>
+    <member name="data" type="F32"/>
+  </members>
+</serializable>

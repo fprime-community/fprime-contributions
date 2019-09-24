@@ -1,0 +1,17 @@
+<telemetry>
+    <channel id="0" name="MVVISLAM_ErrorCode" data_type="U32" >
+        <comment>
+            MVVislam error code
+        </comment>
+    </channel>
+    <channel id="1" name="MVVISLAM_w_q_b" data_type="ROS::geometry_msgs::Quaternion">
+        <comment>
+            MVVislam orientation
+        </comment>
+    </channel>
+    <channel id="2" name="MVVISLAM_x_b" data_type="ROS::geometry_msgs::Vector3">
+        <comment>
+            MVVislam translation
+        </comment>
+    </channel>
+</telemetry>

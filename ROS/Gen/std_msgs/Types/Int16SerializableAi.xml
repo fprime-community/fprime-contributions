@@ -1,0 +1,5 @@
+<serializable name="Int16" namespace="ROS::std_msgs">
+  <members>
+    <member name="data" type="I16"/>
+  </members>
+</serializable>

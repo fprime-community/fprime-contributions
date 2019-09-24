@@ -1,0 +1,6 @@
+<serializable name="String" namespace="ROS::std_msgs">
+  <members>
+    <member name="data" type="Fw::EightyCharString"/>
+  </members>
+  <include_header>Fw/Types/EightyCharString.hpp</include_header>
+</serializable>

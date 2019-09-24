@@ -1,0 +1,5 @@
+<serializable name="Int32" namespace="ROS::std_msgs">
+  <members>
+    <member name="data" type="I32"/>
+  </members>
+</serializable>

@@ -1,0 +1,5 @@
+<serializable name="Byte" namespace="ROS::std_msgs">
+  <members>
+    <member name="data" type="I8"/>
+  </members>
+</serializable>

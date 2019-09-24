@@ -1,0 +1,6 @@
+<serializable name="Duration" namespace="ROS::std_msgs">
+  <members>
+    <member name="data" type="Fw::Time"/>
+  </members>
+  <include_header>Fw/Time/Time.hpp</include_header>
+</serializable>

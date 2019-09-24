@@ -1,0 +1,5 @@
+<serializable name="UInt64" namespace="ROS::std_msgs">
+  <members>
+    <member name="data" type="U64"/>
+  </members>
+</serializable>

@@ -1,0 +1,8 @@
+<serializable name="Header" namespace="ROS::std_msgs">
+  <members>
+    <member name="seq" type="U32"/>
+    <member name="stamp" type="Fw::Time"/>
+    <member name="frame_id" type="U32"/>
+  </members>
+  <include_header>Fw/Time/Time.hpp</include_header>
+</serializable>

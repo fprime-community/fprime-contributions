@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="file:../xml/ISF_Component_Schema.rnc" type="compact"?>
+
+<component name="LLDebug" kind="passive" namespace="LLProc">
+    <import_port_type>Drv/SerialDriverPorts/SerialWritePortAi.xml</import_port_type>
+    <import_port_type>Drv/GpioDriverPorts/GpioWritePortAi.xml</import_port_type>
+    <import_port_type>LLProc/Ports/DebugStringPortAi.xml</import_port_type>
+    <import_port_type>Common/Ports/EnablePortAi.xml</import_port_type>
+    <comment>Debug component to handle debug messages and asserts</comment>
+    <ports>
+        <port name="SerWritePort" data_type="Drv::SerialWrite" kind="output" >
+            <comment>
+            Output port to serial driver to read accumulated data
+            </comment>
+        </port>
+        <port name="SwFault" data_type="Drv::GpioWrite"  kind="output">
+           <comment>Output port to signal software error</comment>
+        </port>
+        <port name="DebugStringIn" data_type="LLProc::DebugString"  kind="sync_input">
+           <comment>Port for Debug strings</comment>
+        </port>
+        <port name="AssertEnable" data_type="Common::Enable"  kind="sync_input">
+           <comment>Port to enable/disable asserts</comment>
+        </port>
+    </ports>
+    
+    <commands>    
+        <command kind="sync" opcode="0" mnemonic="LLDBG_ENABLE_ASSERT" >
+            <comment>Enable/Disable asserts</comment>
+               <args>
+                    <arg name="enable" type="ENUM">
+                        <enum name="AssertEnable">
+                            <item name="ASSERT_ENABLE"/>
+                            <item name="ASSERT_DISABLE"/>
+                        </enum>
+                        <comment>Enable/Disable asserts</comment>
+                    </arg>   
+                </args>
+        </command>
+        <command kind="sync" opcode="1" mnemonic="LLDBG_STRING">
+            <comment>
+            No-op string command
+            </comment>
+            <args>
+                <arg name="arg1" type="string" size="40">
+                    <comment>The String command argument</comment>
+                </arg>
+            </args>
+        </command>
+    </commands>
+</component>
+

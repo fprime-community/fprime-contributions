@@ -1,0 +1,5 @@
+<serializable name="UInt8" namespace="ROS::std_msgs">
+  <members>
+    <member name="data" type="U8"/>
+  </members>
+</serializable>

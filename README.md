@@ -2,6 +2,12 @@
 
 Contributions to F´ that have been submitted by the community but have not migrated into the framework.
 
+## External Libraries
+
+These are libraries that reside in places other than this repository
+
+* [fprime-SpaceWire](https://github.com/LithiumAerospace/fprime-SpaceWire)
+
 ## Quality
 
 These contributions are supplied as-is from the community working with F´.  They may or may not have been flown on flight 

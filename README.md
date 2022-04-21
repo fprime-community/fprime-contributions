@@ -6,7 +6,7 @@ Contributions to F´ that have been submitted by the community but have not migr
 
 These are libraries that reside in places other than this repository
 
-* [fprime-SpaceWire](https://github.com/LithiumAerospace/fprime-SpaceWire)
+* [fprime-CommLib](https://github.com/LithiumAerospace/fprime-CommLib)
 
 ## Quality
 
